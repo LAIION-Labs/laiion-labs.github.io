@@ -378,3 +378,12 @@ a.contact__item:hover { color: var(--text); border-color: var(--border-strong); 
 .product-card__top, .product__brand { display: flex; align-items: center; gap: 14px; }
 .product-logo { flex: none; object-fit: contain; filter: drop-shadow(0 2px 4px rgba(13, 17, 23, 0.12)); }
 .product-card__top .tag, .product__brand .tag { margin: 0; }
+
+/* applications éditées pour un partenaire */
+.partners { border-top: 1px solid var(--border); }
+.partner-card { display: flex; flex-direction: column; gap: 14px; }
+.partner-card .product-card__name { margin-top: 4px; }
+.partner-links { list-style: none; margin: 4px 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 4px 18px; }
+.partner-links a { display: inline-flex; align-items: center; min-height: 40px; font-size: 0.9375rem; font-weight: 600; text-decoration: none; }
+.partner-notes { margin-top: 24px; display: grid; gap: 6px; }
+.partner-card .product-logo { background: #fff; border-radius: 50%; padding: 3px; box-shadow: 0 0 0 1px var(--border); }
